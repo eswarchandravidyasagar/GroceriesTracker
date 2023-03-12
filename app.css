@@ -1,6 +1,16 @@
+/* 
+#E5FDD1
+
+
+#B5F1CC
+
+*/
+
+
+
 body{
     margin: 0px;
-    background-color: whitesmoke;
+    background-color: #C9F4AA;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display:inline-flexbox;
 }
@@ -10,16 +20,18 @@ body{
 }
 
 .listItem{
-    background-color: rgb(142, 232, 255);
-    border: 1px solid rgb(0, 0, 0);
+    background-color: #B5F1CC
+    ;
+    border: 1px solid rgb(244, 237, 237);
 }
 
 #groceries{
     justify-items: center;
     height: auto;
     width: 550px;
-    background-color: rgb(209, 224, 255);
-    border: 1px solid rgb(106, 139, 228);
+    background-color: #E5FDD1;
+    border: 1px solid #B5F1CC
+    ;
 }
 
 #login{
