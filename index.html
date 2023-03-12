@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="app.css">
+
+</head>
+<body>
+    <a id="login" href="login.html"> Login</a>
+<label for="date"> Enter Date
+    <input type="date" id="date" name="date" value="2023-03-05"  max="2029-12-31">
+</label>
+
+<label for="company">Store Name
+    <select name="company" id="company">
+        <option value="Freshco">Freshco</option>
+        <option value="Walmart">Walmart</option>
+        <option value="Dollaroma">Dollaroma</option>
+        <option value="Food Basics">Food Basics</option>
+        <option value="Indian Store">Indian Store</option>
+        <option value="Halal Market">Halal market</option>
+        <option value="Tim Hortons">Tim Hortans</option>
+        <option value="Uber eats">Uber Eats</option>
+        <option value="Miscellaneous">Miscellaneous</option>
+        
+    </select>
+
+</label>
+
+<label for="amount">Amount
+    <input type="number" id="amount" name="amount" min="0" max="1000000" step="1">
+<button id="add">Add</button>
+
+<Div id="groceries">
+    <ul id="list" >
+
+    </ul>
+</Div>
+
+    <script src="app.js" ></script>
+    <script src="mail.js" ></script>
+</body>
+</html>
